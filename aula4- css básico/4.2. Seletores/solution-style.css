@@ -1,0 +1,24 @@
+/* 1 - Seletor de elemento */
+p {
+    color: red;
+}
+
+/* 2 - Seletor de classe */
+.classe {
+    color: black;
+}
+
+/* 3 - Seletor de ID */
+#identificador {
+    color: green;
+}
+
+/* 4 - Seletor de atributo */
+[title="atributo"] {
+    color: blue;
+}
+
+/* 5 - Seletor universal */
+* {
+    font-family: Arial, sans-serif;
+}
