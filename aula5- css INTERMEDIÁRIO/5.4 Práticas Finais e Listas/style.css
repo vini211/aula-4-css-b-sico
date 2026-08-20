@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Desafio de Integração: Cartão com Sombra Simples */
+  .cartao {
+    background-color: #ffffff;
+    width: 300px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Opacidade e Borda Arredondada (Imagem) */
+  .foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .foto-perfil:hover {
+    opacity: 1; /* Retorna opacidade total no hover */
+  }
+  
+  .nome {
+    font-weight: bold;
+    color: #2d3748;
+    margin: 12px 0 6px 0;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .descricao {
+    font-size: 14px;
+    color: #718096;
+    margin-bottom: 16px;
+  }
+  
+  /* Estilização de Lista sem Marcadores */
+  .lista-habilidades {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color: #4a5568;
+    font-size: 13px;
+  }
+  
+  .lista-habilidades li {
+    margin-bottom: 4px;
+  }
+  
+  /* Botão com Efeito Hover e Decoração Removida */
+  .btn-contato {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4299e1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-contato:hover {
+    background-color: #2b6cb0;
+  }

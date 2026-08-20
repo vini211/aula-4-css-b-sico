@@ -1,0 +1,29 @@
+/* Família de Fontes global */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tamanho da Fonte */
+  .texto-grande {
+    font-size: 24px;
+  }
+  
+  /* Peso e Estilo */
+  .negrito {
+    font-weight: bold;
+  }
+  
+  .italico {
+    font-style: italic;
+  }
+  
+  /* Alinhamento */
+  .titulo-centralizado {
+    text-align: center;
+  }
+  
+  /* Decoração de Texto */
+  .link-sem-sublinhado {
+    text-decoration: none;
+    color: #0066cc;
+  }
