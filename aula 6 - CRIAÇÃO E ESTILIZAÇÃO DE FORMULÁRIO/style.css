@@ -1,0 +1,136 @@
+/* Reseta margens e define caixa padrão */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Etapa 12 & 19 — Estilização global do corpo da página com gradiente */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #40495c 0%, #182848 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Etapa 13 & 19 — Cartão central com sombra e arredondamento */
+.container {
+    width: 100%;
+    max-width: 420px;
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Etapa 15 — Título principal */
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #182848;
+    font-size: 1.6rem;
+}
+
+/* Estruturação dos grupos de campos */
+.grupo-campo {
+    margin-bottom: 18px;
+}
+
+/* Etapa 15 — Rótulos dos campos */
+label, .label-genero {
+    display: block;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+/* Etapa 14 & 19 — Inputs e Selects */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333333;
+    transition: all 0.3s ease;
+}
+
+/* Etapa 17 & 19 — Efeito visual quando o campo está selecionado */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #2e323b;
+    box-shadow: 0 0 6px rgba(75, 108, 183, 0.4);
+}
+
+/* Estilização para Radio Buttons em linha */
+.opcoes-inline {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.opcoes-inline label {
+    font-weight: normal;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.opcoes-inline input[type="radio"] {
+    cursor: pointer;
+}
+
+/* Estilização da caixa de Termos */
+.campo-termos {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.campo-termos label {
+    font-weight: normal;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
+
+.campo-termos a {
+    color: #393f4d;
+    text-decoration: none;
+}
+
+.campo-termos a:hover {
+    text-decoration: underline;
+}
+
+/* Etapa 16 & 19 — Estilização do Botão com efeito de hover e animação */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #363b47;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #30353f;
+}
+
+button:active {
+    transform: scale(0.98);
+}
