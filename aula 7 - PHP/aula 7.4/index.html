@@ -7,7 +7,7 @@
 </head>
 <body>
  <h1>Somar dois valores</h1>
-    <form method="GET">
+    <form action="calculadora2.0.php"method="GET">
 
       <label>Primero valor </label> 
      <input type="number" name="valor 1" required>
@@ -16,24 +16,16 @@
 
      <label>Segundo valor </label> 
      <input type="number" name="valor 2" required>
-    
-      <br><br>
+
+     <br><br>
+
+     <label>Terceiro valor </label> 
+     <input type="number" name="valor 3" required>
+
+     <br><br>
+
+
      <button type="submit">Somar</button>
     </form>
-    <?php 
-        if (isset($_GET["valor1"]) && isset($_GET[valor2])) {
-
-        $valor1 = $_GET["valor1"];
-        $valor2 = $_GET["valor2"];
-
-        $soma = $valor1 + $valor2;
-
-        echo "<h2> o ressultado da soma é: $soma</h2>";
-    
-        
-
-     }
-
-     ?>
 </body>
 </html>
